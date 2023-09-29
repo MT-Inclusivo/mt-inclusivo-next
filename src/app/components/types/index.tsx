@@ -1,6 +1,6 @@
 export type Law = {
-  palavraChave: String[];
-  resumo: String;
-  titulo: String;
-  url: String;
-};
+  palavraChave: string[]
+  resumo: string
+  titulo: string
+  url: string
+}
