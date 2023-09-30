@@ -12,7 +12,7 @@ export function CategoriesList() {
   return (
     <div
       aria-label="Categorias de Lei"
-      className="flex flex-wrap justify-center"
+      className="flex flex-col gap-4 flex-wrap justify-center"
     >
       {categoriesList.map((category) => (
         <Link

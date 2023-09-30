@@ -1,7 +1,42 @@
 [
   {
     "id": 1,
-    "slug": "atendimento-prioritário",
+    "slug": "atendimento-prioritario",
     "title": "Atendimento prioritário"
+  },
+  {
+    "id": 2,
+    "slug": "igualdade-nao-discriminacao",
+    "title": "Igualdade e Não Discriminação"
+  },
+  {
+    "id": 3,
+    "slug": "saude",
+    "title": "Saúde"
+  },
+  {
+    "id": 4,
+    "slug": "educacao",
+    "title": "Educação"
+  },
+  {
+    "id": 5,
+    "slug": "moradia",
+    "title": "Moradia"
+  },
+  {
+    "id": 6,
+    "slug": "trabalho",
+    "title": "Trabalho"
+  },
+  {
+    "id": 7,
+    "title": "Assistência Social",
+    "slug": "assistencia-social"
+  },
+  {
+    "id": 8,
+    "title": "Previdência Social",
+    "slug": "previdencia-social"
   }
 ]
