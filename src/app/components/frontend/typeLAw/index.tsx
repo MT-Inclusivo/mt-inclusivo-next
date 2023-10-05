@@ -1,16 +1,13 @@
 import Link from 'next/link'
-import categories from '@/app/components/data/categories.json'
 
-type CategoriesProps = typeof categories;
-
-export default function TypesLa({slug = ''}) {
+export default function TypesLa({slug = ""}) {
   return (
-    <div className='flex flex-col items-center gap-7 mt-10'>
+    <div className="flex flex-col items-center gap-7 mt-10">
       <Link
       aria-label="Leis Federais"
       href={`/search/${slug}/federais`}
       key="leisFederais"
-      className='h-16 w-80 border border-black rounded-full flex items-center justify-center text-lg font-bold bg-gray-200 '>
+      className="h-16 w-80 border border-black rounded-full flex items-center justify-center text-lg font-bold bg-gray-200 ">
         LEIS FEDERAIS
       </Link>
 
@@ -18,7 +15,7 @@ export default function TypesLa({slug = ''}) {
       aria-label="Leis Estaduais"
       href={`/search/${slug}/estaduais`}
       key="leisEstaduais"
-      className='h-16 w-80 border border-black rounded-full flex items-center justify-center text-lg font-bold'>LEIS ESTADUAIS</Link> 
+      className="h-16 w-80 border border-black rounded-full flex items-center justify-center text-lg font-bold">LEIS ESTADUAIS</Link> 
     </div>
   )
 }

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && npx eslint --max-warnings=0"
+    "lint": "next lint && npx eslint --max-warnings=0",
+    "lint:fix": "prettier write ."
   },
   "dependencies": {
     "lucide-react": "^0.279.0",
