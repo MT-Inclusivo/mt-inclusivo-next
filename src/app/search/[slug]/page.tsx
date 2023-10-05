@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import categories from '@/app/components/data/categories.json'
+import TypesLaw from '@/app/components/frontend/typeLAw'
 
 export const metadata: Metadata = {
   title: 'MT Inclusivo | Pesquisa',
@@ -21,8 +22,6 @@ interface StaticProps {
 export default function SearchSlug({ params }: StaticProps) {
   const { slug } = params
   return (
-    <div className="flex flex-col items-center py-10">
-      <p>To DO {slug}</p>
-    </div>
+    <TypesLaw slug={slug} />
   )
 }
